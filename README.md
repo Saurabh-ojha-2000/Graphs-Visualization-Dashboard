@@ -1,6 +1,3 @@
-# blackcoffer-dvd
-Test assignment assign by Blackcoffer to visualize a given data set.
-
 **Steps to Run This Project:**
 
 Step 1: Get the Project Files
