@@ -5,7 +5,6 @@ import './App.css';
 import Header from './components/Header';
 import Chartboard from './components/Chartboard';
 
-
 function App() {
     const [mainData, setMainData] = useState([]);    
     const getDataFromDB = async() => {
@@ -27,7 +26,9 @@ function App() {
     },[mainData])
 
   return (
-    <section style={{backgroundColor:"darksalmon"}}>
+    // <section style={{backgroundColor:"radial-gradient(center top, rgb(255, 255, 255) 33%, rgb(79, 48, 171));"}}>
+    <section style={{backgroundImage:"radial-gradient(circle at  top, rgb(255, 255, 255) 10%, rgb(79, 48, 171) 70%)"}}>
+
 
     <div>
       <Header/>

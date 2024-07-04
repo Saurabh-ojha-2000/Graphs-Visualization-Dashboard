@@ -30,7 +30,7 @@ const Filters = ({ setMainData }) => {
     }
 
     return (
-        <div className='filter-section' style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row', alignItems: 'center' }}>
+        <div className='filter-section' style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', margin:"25px" }}>
 
             <Dropdown onSelect={handleSelect}>
 
